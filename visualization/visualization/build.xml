@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project name="visualization" default="build" basedir=".">
   <property name="gwt.root" location=".."/>
- <property name="project.tail" value="visualization"/>
+  <property name="project.tail" value="visualization"/>
   <property file="${gwt.root}/common.properties"/>
   <import file="${gwt.root}/common.ant.xml"/>
 
@@ -23,6 +23,7 @@
       <classpath>
         <pathelement location="${gwt.dev.jar}"/>
         <pathelement location="${gwt.user.jar}"/>
+        <pathelement location="${gwt.root}/../ajaxloader/build/lib/gwt-ajaxloader.jar"/>
       </classpath>
     </gwt.javac>
   </target>
