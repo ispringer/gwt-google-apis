@@ -1,0 +1,10 @@
+# IntelliJ
+.idea
+*.iml
+
+build
+classes
+deploy
+gwt-unitCache
+
+/ajaxloader/samples/helloajaxloader/war/helloajaxloader
